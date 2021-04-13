@@ -1,0 +1,107 @@
+body {
+	letter-spacing: 1px;
+	max-width: 1024px;
+	margin: 100px auto!important;
+}
+
+
+tbody, td, tfoot, th, thead, tr {
+	color: #666666;
+	font-size: 18px;
+}
+
+th {
+	border-bottom-color: #dee2e6!important;
+}
+
+thead th {
+	background-color: #f5f6f7!important;
+	border-bottom-width: 2px!important;
+	border-top: 2px solid #b91919;
+}
+
+tbody th {
+	width: 150px;
+}
+
+tbody td {
+	width: 100px;
+}
+
+.tableTitle {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #666666;
+	padding: 8px;
+	margin: 0;
+}
+
+#tableBoxTshirt, #tableBoxTPants, #tableBoxTShoes, #tableBoxTDress {
+	display: none;
+}
+
+#imgBox img {
+	width: 350px;
+}
+
+#tableTshirt {
+	align-self: center;
+}
+
+.btnSpan {
+	vertical-align: middle;
+	padding-left: 5px;
+}
+
+.boxCenter {
+	margin: 100px 0;
+}
+
+.tableInput {
+	width: 84px;
+	border: none;
+}
+
+.pantsImg img {
+	width: 200px!important;
+}
+
+.dressImg img {
+	width: 300px!important;
+}
+
+.thInput {
+	width: 84px;
+	border: none;
+	background-color: transparent;
+	font-weight: 600;
+	color: #666666;
+	font-size: 18px;
+}
+
+.thInput::placeholder {
+	font-weight: 600;
+	color: #666666;
+	font-size: 18px;
+}
+
+.thInputSmall {
+	font-size: 14px;
+	width: 84px;
+	border: none;
+	background-color: transparent;
+	font-weight: 400;
+	color: #666666;
+}
+
+.hide {
+	display: none;
+}
+
+#headerRow th {
+	width: 84px!important;
+}
+
+#tableShoes tbody tr th input {
+	width: 100px;
+}
